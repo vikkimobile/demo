@@ -1,0 +1,111 @@
+*{
+    font-family: 'Inter';
+}
+.company_logo_img{
+    height: 60px;
+}
+.landing_page_content{
+    position: relative;
+    left: 20px;
+    font-family: 'Inter';
+}
+.company_logo_img{
+    position: relative;
+    left: 20px;
+}
+.landing_page_content{
+  top: 90px;
+  
+
+}
+.discription_page{
+    font-size: 18px;
+}
+.landing_page_title{
+    font-size: 35px;
+    font-style:  normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.features_page_icons{
+    position: relative;
+    top: 0px;
+}
+.left_icons{
+    position: relative;
+    padding-left: 25px;
+}
+.right_icons{
+     left: 60px;
+}
+.register_button{
+    left: 25%;
+}
+.agreement_link{
+    position: relative;
+    left: 20%;
+}
+
+/* .right_content{
+    margin-left: 200px;
+
+
+
+
+/* ---------------------------------- */
+.main_custom_button{
+    /* type=secondary, icon=no, style=Default, Size=Regular */
+
+
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    
+    position: absolute;
+    /* width: 80px; */
+    height: 40px;
+    left: 645px;
+    top: 24px;
+    
+    /* main colors/white */
+    
+    background: #FFFFFF;
+    /* main colors/main blue */
+    
+    border: 1px solid #0078E7;
+    color: #0078E7;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.main_custom_button:hover{
+    border: 1px solid #005AC5;
+    color: #005AC5;
+border-radius: 8px;
+}
+
+.left_content {
+    background: rgb(248,249,251);
+    background: linear-gradient(90deg, rgba(248,249,251,1) 0%, rgba(248,249,251,1) 99%, rgba(229,230,233,1) 100%);
+}
+
+*{
+    overflow: hidden;
+}
+.custom_button{
+margin-top: 100px;
+}
+
+.item_container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}

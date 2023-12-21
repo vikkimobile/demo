@@ -1,0 +1,62 @@
+.signup_content{
+    margin: 15px 0px 0px 253px;
+    
+    }
+    
+    .create_ac_button{
+    margin-left: 25%;
+    }
+
+    .terms_condition{
+        margin-left: 12%;
+    }
+    .custom_register_button{
+            /* type=main, icon=no, style=Default, Size=Regular */
+            
+            
+            /* Auto layout */
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            /* padding: 10px 16px; */
+            
+            height: 40px;
+            position: relative;
+            left: 100px;
+            top: 0px;
+            
+            /* main colors/main blue */
+            
+            background: #0078e7;
+            border-radius: 8px;
+            border: solid #0078e7;
+            color: white;
+            }
+            .custom_button:hover{
+            background: #005AC5;
+            border: solid #005AC5;
+            }
+            .password-container {
+                position: relative;
+              }
+              
+              .eye-icon {
+                position: absolute;
+                top: 55px;
+                right: 208px;
+                cursor: pointer;
+              }
+              .custom_label{
+                display: flex;
+                margin-top: 15px;
+                margin-bottom: 9px;
+                font-weight: 600;
+              }
+
+.error_message{
+  color: red;
+}              
+ 

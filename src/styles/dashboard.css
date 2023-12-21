@@ -1,0 +1,93 @@
+.headerStyle {
+   /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+/* gap: 985px; */
+
+position: absolute;
+width: 100%;
+height: 120px;
+
+/* main colors/white */
+
+background: #FFFFFF;
+}
+
+.header_label{
+    width: 210px;
+height: 39px;
+
+/* Header/H2 */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+/* main colors/black */
+
+color: #060201;
+}
+
+.header_search{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 12px 16px 16px;
+gap: 8px;
+
+width: 304px;
+height: 40px;
+
+/* main colors/white */
+
+background: #FFFFFF;
+/* main colors/light grey (backgrounds) */
+
+border: 1px solid #E5E6E9;
+border-radius: 8px;
+
+/* Inside auto layout */
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.dashboard_div{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard_notification{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 40px;
+height: 40px;
+
+/* main colors/white */
+
+background: #FFFFFF;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+

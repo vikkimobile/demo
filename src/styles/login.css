@@ -1,0 +1,83 @@
+.login_content{
+margin: 150px 0px 0px 200px;
+
+}
+
+.login_button_content{
+margin-left: 30%;
+}
+
+.custom_input{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 320px;
+height: 40px;
+
+/* main colors/white */
+
+background: #FFFFFF;
+/* main colors/light grey (backgrounds) */
+
+border: 1px solid #E5E6E9;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.custom_button{
+/* type=main, icon=no, style=Default, Size=Regular */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+
+position: absolute;
+width: 66px;
+height: 40px;
+left: 325px;
+top: 352px;
+
+/* main colors/main blue */
+
+background: #0078e7;
+border-radius: 8px;
+border: solid #0078e7;
+color: white;
+
+}
+.custom_button:hover{
+background: #005AC5;
+border: solid #005AC5;
+}
+.password-container2 {
+    position: relative;
+  }
+  
+  .eye-icon2 {
+    position: absolute;
+    top: 55px;
+    right: 260px;
+    cursor: pointer;
+  }
+
+  .error_message{
+    color: red;
+  }

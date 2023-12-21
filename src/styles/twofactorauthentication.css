@@ -1,0 +1,72 @@
+
+  .custom_label_2fa{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    font-weight: 600;
+    margin-top: 175px;
+    margin-left: 270px;
+    color: #0078e7;
+  }
+
+  .fa_para{
+    margin-left: 190px;
+    color: #0078e7;
+  }
+  .custom_input_2fa{
+    box-sizing: border-box;
+    margin-left: 200px;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 320px;
+height: 40px;
+
+/* main colors/white */
+
+background: #FFFFFF;
+/* main colors/light grey (backgrounds) */
+
+border: 1px solid #E5E6E9;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.custom_button_2fa{
+    /* type=main, icon=no, style=Default, Size=Regular */
+    
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    
+    position: absolute;
+    width: 66px;
+    height: 40px;
+    left: 325px;
+    top: 352px;
+    
+    /* main colors/main blue */
+    
+    background: #0078e7;
+    border-radius: 8px;
+    border: solid #0078e7;
+    color: white;
+    
+    }

@@ -1,0 +1,18 @@
+
+.loading_logo{
+    position: relative;
+    margin-top: 23%;
+    margin-left: 44%;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+    animation-direction: alternate; 
+}
+@keyframes logo {
+  0%   { left:0px; right:0px;}
+  25%  { left:100px; right:0px;}
+  50%  {right:100px; left:0px;}
+  75%  {left:100px; right:0px;}
+  100% {left:0px; right:100px;}
+}
