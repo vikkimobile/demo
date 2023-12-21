@@ -33,7 +33,7 @@ const LandingScreen = () => {
           <br />
 
           <div className="landing_page_content">
-            <h1 className="landing_page_title">Get Started Today</h1>
+            <h1 className="landing_page_title">Get Started Today for change</h1>
             <p className="discription_page">
               8081 is a desktop and mobile online Financial Application <br />
               for tardingCrypto with support of Automatic tools, <br />
